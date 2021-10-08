@@ -1,0 +1,27 @@
+style.css
+
+body {
+  padding: 40px;
+}
+
+h1 {
+  display: block;
+  color: black;
+  background-color: red;
+}
+
+h2 {
+  display: inline;
+  color: green;
+  background-color: silver;
+}
+
+h3 {
+  display: inline;
+  color: green;
+  background-color: white;
+}
+
+img {
+  border-radius: 50%;
+}
