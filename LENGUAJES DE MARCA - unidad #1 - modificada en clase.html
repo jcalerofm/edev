@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+body {
+  padding: 40px;
+}
+
+h1 {
+  display: block;
+  color: black;
+  background-color: red;
+}
+
+h2 {
+  display: inline;
+  color: green;
+  background-color: silver;
+}
+
+h3 {
+  display: inline;
+  color: green;
+  background-color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+</style>
+
+<header>
+<img src="https://cdn-icons-png.flaticon.com/512/121/121537.png" width="100"/>
+<h1>LENGUAJE DE MARCAS #1</h1>
+<h2>HTML</h2><h3>
+hypertext markup language
+</h3>
+</header>
+
+<section>
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#H">Historia</a> |
+  <a href="#E">Estructura</a> |
+  <a href="#T">Tags HTML5</a> |
+  <a href="#N">tablas</a> |
+  <a href="#S">CSS</a> |
+  <a href="#X">Documentaci&oacute;n</a> |
+  <a href="#B">Bootstrap</a> |
+</nav>
+</section>
+
+<hr>
+
+<section>
+  <a id="H"></a>
+  <a href="#">Inicio</a>
+  <h2>Historia</h2>&nbsp;<h3>hemos llegado donde no queríamos</h3>
+  <p>Creado por <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Bernerds Lee</a> en el laboratorio <a href="https://home.cern">CERN</a> de Suiza.</p>
+  <p>
+  Con HTML5 volvemos a centrarnos en la semántica de contenido y simplificamos. MENOS ES MAS.
+  </p>
+</section>
+
+<br>
+
+<section>
+  <a id="E"></a>
+  <a href="#">Inicio</a>
+  <h2>Estructura HTML básica</h2>
+  <h3>
+  cómo organizamos los tags
+  </h3>
+  <pre>
+  &lt;doctype html&gt;
+  html
+     head
+     /head
+     style
+     /style
+     body
+     h1,h2,h3,h4,h5,h6
+     img/
+     p
+     ol, ul
+        li
+        /li
+     /ol, /ul
+     table, thead, tbody, tr, td /td, /tr, /tbody, /thead, /table
+     /body
+  /html
+  </pre>
+  <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">https://developer.mozilla.org/es/docs/Web/HTML/Element</a>
+</section>
+
+<br>
+
+<section>
+  <a id="T"></a>
+  <a href="#">Inicio</a>
+  <h2>Tags HTML5</h2>
+  <h3>
+  html5 proporciona estructura semántica
+  </h3>
+  <ul>
+  <li>nav: navegación, menú del documento</li>
+  <li>header: cabecera principal del documento</li>
+  <li>section: sección de cabecera o artículo</li>
+  <li>article: unidad mínima de contenido</li>
+  <li>footer: pie de documento</li>
+  </ul>
+</section>
+
+<br>
+
+<section>
+  <a id="N"></a>
+  <a href="#">Inicio</a>
+  <h2>tablas</h2>
+  <h3>
+  evitemos su uso porque no son "responsive"
+  </h3>
+  <table>
+  <tr>
+    <th>A</th><th>B</th><th>C</th>
+  </tr>
+  <tr>
+    <td>1</td><td>2</td><td>3</td>
+  </tr>
+    <tr>
+    <td>4</td><td>5</td><td>6</td>
+  </tr>
+  </table>
+</section>
+
+<br>
+
+<section>
+  <a id="S"></a>
+  <a href="#">Inicio</a>
+  <h2>CSS: cascading style sheets</h2>
+  <h3>
+  cómo aplicamos el aspecto visual
+  </h3>
+  <p>
+  Aplicamos estilo al contenido HTML
+  </p>
+  <pre>
+/* margen al cuerpo del documento */
+body {
+  padding: 40px;
+}
+
+/* color cabecera 1 */
+h1 {
+  color: black;
+  background-color: red;
+}
+
+/* color cabecera 2 */
+h2 {
+  color: green;
+  background-color: silver;
+}
+  </pre>
+  
+  <pre>
+ /* element: html tags */
+ element {
+    attribute: value;
+ }
+ /* class: clase asignada a un tag html mediante class="name" */
+ .class {
+    attribute: value;
+ }
+ /* id: identificador asignado a un tag html mediante id="identifier" */
+ #id {
+    attribute: value;
+ }
+ 
+      
+  </pre>
+  <ul>
+  <li>colores: <a href="https://www.w3schools.com/colors/colors_names.asp">https://www.w3schools.com/colors/colors_names.asp</a></li>
+  <li>reglas de precedencia: inline, IDs, classes attributes pseudo-classes, elements pseudo-elements</li>
+  </ul>
+</section>
+
+<section>
+  <a id="X"></a>
+  <a href="#">Inicio</a>
+  <h2>Documentaci&oacute;n</h2>
+  <h3>
+  descubre más aprendiendo de los "grandes"
+  </h3>
+  <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure</a>
+  <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+</section>
+
+<br>
+
+<section>
+  <a id="B"></a>
+  <a href="#">Inicio</a>
+  <h2>Bootstrap</h2>
+  <h3>
+  standard "de facto": no inventemos la rueda (o sí)
+  </h3>
+  <br>
+  <a href="https://getbootstrap.com" target="_blank">https://getbootstrap.com</a>
+</section>
+
+</body>
+</html>
