@@ -1,0 +1,112 @@
+<!-- @NAVBAR HTML/CSS -->
+<!-- @AUTHOR: JORGE CALERO -->
+<!-- @VERSION 1.0 -->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC-Navbar</title>
+
+    <!-- CSS STYLE -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .jc-header{
+        border-bottom: 1px solid #E2E8F0;
+    }
+
+    .jc-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+
+    .jc-bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+    .jc-nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .jc-nav-item {
+        margin-left: 5rem;
+    }
+
+    .jc-nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #475569;
+    }
+
+    .jc-nav-link:hover{
+        color: #482ff7;
+    }
+
+    .jc-nav-logo {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: #482ff7;
+    }
+
+    </style>
+</head>
+
+
+
+<!-- HTML BODY -->
+<body>
+  <header class="jc-header">
+    <nav class="jc-navbar">
+        <a href="#" class="jc-nav-logo">Logo</a>
+        <ul class="jc-nav-menu">
+            <li class="jc-nav-item">
+                <a href="#" class="jc-nav-link">Servicios</a>
+            </li>
+            <li class="jc-nav-item">
+                <a href="#" class="jc-nav-link">Blog</a>
+            </li>
+            <li class="jc-nav-item">
+                <a href="#" class="jc-nav-link">Quienes somos</a>
+            </li>
+            <li class="jc-nav-item">
+                <a href="#" class="jc-nav-link">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+</body>
+
+
+
+
+
