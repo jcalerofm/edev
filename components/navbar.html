@@ -6,11 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>JC-Navbar</title>
 
     <!-- CSS STYLE -->
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
     * {
         margin: 0;
@@ -18,9 +19,13 @@
         box-sizing: border-box;
     }
 
+    body {
+      background-color: #355C7D;
+    }
+
     html {
-        font-size: 62.5%;
-        font-family: 'Roboto', sans-serif;
+        font-size: 80%;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     li {
@@ -33,6 +38,7 @@
 
     .jc-header{
         border-bottom: 1px solid #E2E8F0;
+        background: #F4F4F4;
     }
 
     .jc-navbar {
@@ -42,15 +48,6 @@
         padding: 1rem 1.5rem;
     }
 
-    .jc-bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
-    }
 
     .jc-nav-menu {
         display: flex;
@@ -65,46 +62,44 @@
     .jc-nav-link{
         font-size: 1.6rem;
         font-weight: 400;
-        color: #475569;
+        color: rgba(0,0,0,0.7);
     }
 
     .jc-nav-link:hover{
-        color: #482ff7;
+        color: rgba(0,0,0,0.5);
     }
 
     .jc-nav-logo {
         font-size: 2.1rem;
-        font-weight: 500;
-        color: #482ff7;
+        color: rgba(0,0,0,0.7);
     }
+
 
     </style>
 </head>
 
 
 
-<!-- HTML BODY -->
-<body>
-  <header class="jc-header">
-    <nav class="jc-navbar">
-        <a href="#" class="jc-nav-logo">Logo</a>
-        <ul class="jc-nav-menu">
-            <li class="jc-nav-item">
-                <a href="#" class="jc-nav-link">Servicios</a>
-            </li>
-            <li class="jc-nav-item">
-                <a href="#" class="jc-nav-link">Blog</a>
-            </li>
-            <li class="jc-nav-item">
-                <a href="#" class="jc-nav-link">Quienes somos</a>
-            </li>
-            <li class="jc-nav-item">
-                <a href="#" class="jc-nav-link">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-  </header>
-</body>
+<!-- HTML NAVBAR -->
+<header class="jc-header">
+  <nav class="jc-navbar">
+      <a href="#" class="jc-nav-logo"><i class="fas fa-dice-d6"></i> Logo</a>
+      <ul class="jc-nav-menu">
+          <li class="jc-nav-item">
+              <a href="#" class="jc-nav-link">Servicios</a>
+          </li>
+          <li class="jc-nav-item">
+              <a href="#" class="jc-nav-link">Blog</a>
+          </li>
+          <li class="jc-nav-item">
+              <a href="#" class="jc-nav-link">Quienes somos</a>
+          </li>
+          <li class="jc-nav-item">
+              <a href="#" class="jc-nav-link">Contacto</a>
+          </li>
+      </ul>
+  </nav>
+</header>
 
 
 
